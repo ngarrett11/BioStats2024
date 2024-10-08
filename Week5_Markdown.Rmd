@@ -110,8 +110,7 @@ pR2(poisson_model) ### r2CU (Nagelkerke R2 is the most comparable to our typical
 ```{r Negative Binomial Regression}
 library(MASS)
 
-neg_binom_predictor <- rnorm(1000, mean = 0, sd = 1) ### what is your imagined predictor?
-
+neg_binom_predictor <- rnorm(1000, mean = 0, sd = 1) ### what is your imagined predictor? 
 
 # Log link function: log(mu) = beta0 + beta1 * X
 
